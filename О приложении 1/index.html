@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Структура</title>
+</head>
+<body>
+    <header class="row bg-black">
+        <div class="col-6 text-left"><h1 col-6 text-left>To do</h1></div>
+         <div class="col-6 text-right"><h2 col-6 text-right>История проекта</h2></div>
+    </header>
+<main class="container">
+    <section>
+        <h3 class="text-center">О проекте</h3>
+        <p>Данный проект был создан по необходимости иметь под рукой небольшое функциональное приложение для планирования задач.
+         В интернете много аналогов, предлагающих больший функционал, но они были либо платные, либо с рекламой, либо просто некрасивые и некачественные. 
+         И при долгих поисках того планировщика, который мне действительно понравится, я решился сделать именно такой, который будет удовлетворять 
+         мои небольшие потребности.    
+        </p>
+        <figure>
+        <img class="img-fluid" src="source/Снимок.PNG" alt="Пример моего планирования">
+        <figcaption class="text-center">Пример планирования задач</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h3 class="text-center"> Функционал</h3>
+        <p>Существующий на данный момент функционал приложения таков: </p>
+        <ul class="list-group">
+            <li class="list-group-item bg-blanchedalmond">Добавить/удалить задачу;</li>
+            <li class="list-group-item bg-blanchedalmond">Возможность редактирования задачи.</li>
+        </ul>
+        <p class="mb-2 mt-2">На данный момент функционал программы несколько ограничен, так как находится в стадии активной разработки. Будут реализованы следующие плюшки:    
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item bg-blanchedalmond">Смена темы (темная и светлая);</li>
+            <li class="list-group-item bg-blanchedalmond">Обновление метод редактирования и удаления задач;</li>
+            <li class="list-group-item bg-blanchedalmond">Возможность менять задачи местами;</li>
+            <li class="list-group-item bg-blanchedalmond">Группировка задач по списку.</li>
+        </ul>
+        <p>В данном прилоении будет работать "совершенная система защиты информации" - после перезагрузки страницы все забитые вами 
+            задачи буду удаляться. Это связано с тем, что нет бэк части сайта. Возможно, это "недоразумение" будет исправлено в ближайшее 
+        время по мере охвата мною необходимых технологий для решения данной задачи.</p>
+    </section>
+    <section>
+        <h3 class="text-center">В заключении</h3>
+        <p>Создавая данную страницу, я попрактиковался, используя семантическую верстку, а также используя фреймворк <a href="https://bootstrap5.ru/">Bootstrap-5</a>.</p>
+        <p>Разумеется, до полноценного приложения To do далековато, но тем не менее - это практика и опыт, который позволит 
+            в дальнейшем достигнуть успеха во frontend разработке.
+        </p>
+        <p>Сомневаюсь, конечно, что кто-то увидит данную страницу, но, если кто и читает ее, пусть помнит:</p>
+    </section>
+</main>
+<footer class="blockquote-footer">
+    <h4 class="text-center">Достижение успеха зависит только от Вас.</h4>
+</footer>
+
+<script src="bootstrap-5.0.0-alpha1-dist/js/bootstrap.js"></script>
+</body>
+</html>

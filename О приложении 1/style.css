@@ -1,0 +1,25 @@
+body {
+    background-color: blanchedalmond;
+}
+.bg-black {
+    background-color: black;
+    color: blanchedalmond;
+}
+.bg-blanchedalmond {
+    background-color: blanchedalmond
+}
+.bg-body {
+    background-color: blanchedalmond;
+}
+figcaption {
+    color: darkorange;
+}
+li {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+li:hover {
+    color: darkorange;
+}
+

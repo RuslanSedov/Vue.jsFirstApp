@@ -1,0 +1,33 @@
+
+.strike {
+    text-decoration: line-through;
+}
+.as {
+    color: white;
+}
+.nav {
+    position: fixed;
+}
+#nav {
+background-color: black;
+color: white;
+}
+#inp {
+    width: 80%;
+}
+.marg {
+    margin-left: 3%;
+}
+ul {
+    padding-top: 80px;
+    list-style-type: symbols();
+}
+li {
+    cursor: pointer;
+}
+.word-break {
+    word-break: normal;
+}
+template {
+    margin: 0
+}
